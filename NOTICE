@@ -1,0 +1,9 @@
+TorqueTalk-GPT
+Copyright 2025 Shubhayan Ghosh
+
+This product includes software developed under the Apache License, Version 2.0.
+For details, see LICENSE.
+
+Model weights used:
+- LLaMA2 (Meta AI) — Subject to Meta’s LLaMA license
+- Sentence Transformers: all-MiniLM-L6-v2 (Apache 2.0)
