@@ -3,7 +3,7 @@
 ## 📁 Folder Structure
 
 ---
-
+```bash
 torquetalk/
 ├── app/
 │ ├── chat_ui.py
@@ -18,7 +18,7 @@ torquetalk/
 ├── .env
 ├── .gitignore
 └── README.md
-
+```
 
 
 ---
