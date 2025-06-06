@@ -77,8 +77,8 @@ streamlit run app/chat_ui.py
 
 ## 👨‍🔧 Maintainer
 Shubhayan Ghosh
-🔗 LinkedIn [https://www.linkedin.com/in/ghoshshubhayan/]
-📫 shubhayan.tech@gmail.com
+🔗 LinkedIn : [https://www.linkedin.com/in/ghoshshubhayan/]
+📫 Email : shubhayan.tech@gmail.com
 
 ---
 
