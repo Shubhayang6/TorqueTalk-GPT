@@ -1,0 +1,30 @@
+@startuml TorqueTalk_Architecture
+
+actor User
+
+package "TorqueTalk System" {
+  [Streamlit Chatbot UI] as UI
+  [LangChain Pipeline] as LangChain
+  [FAISS Vector DB] as FAISS
+  [Ollama LLM Server] as Ollama
+
+  UI --> LangChain : User question
+  LangChain --> FAISS : Retrieve relevant docs
+  LangChain --> Ollama : Prompt with retrieved context
+  Ollama --> LangChain : Natural language response
+  LangChain --> UI : Display answer
+}
+
+note bottom of FAISS
+RAG-enabled vector search
+using fault descriptions
+& service manual chunks
+end note
+
+note bottom of Ollama
+Runs LLaMA2 or other
+quantized GGUF models
+locally (CPU/GPU)
+end note
+
+@enduml
