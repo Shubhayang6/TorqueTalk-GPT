@@ -73,11 +73,14 @@ ollama run llama2
 streamlit run app/chat_ui.py
 ```
 
+---
+
 ## 👨‍🔧 Maintainer
 Shubhayan Ghosh
 🔗 LinkedIn [https://www.linkedin.com/in/ghoshshubhayan/]
-📫 ghoshshubhayan [at] gmail [dot] com
+📫 shubhayan.tech@gmail.com
 
+---
 
 ## 🪪 License
 This project is licensed under the **Apache License 2.0**. See the [LICENSE](./LICENSE) file for details.
