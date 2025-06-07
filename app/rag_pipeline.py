@@ -4,6 +4,8 @@ from langchain_community.llms import Ollama
 from langchain.chains.retrieval_qa.base import RetrievalQA
 from langchain.prompts import PromptTemplate
 
+from langchain_community.llms import 
+
 
 INDEX_DIR = "faiss_index"
 
