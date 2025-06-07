@@ -31,11 +31,12 @@ Modern vehicles generate thousands of diagnostic codes — but understanding the
 ---
 
 ## 🧠 Architecture
-[ Streamlit UI ]
-↓
-[ LangChain RAG Pipeline ]
-↓
-[ FAISS Vector DB + Ollama LLM ]
+
+            [ Streamlit UI ]
+                    ↓
+        [ LangChain RAG Pipeline ]
+                    ↓
+    [ FAISS Vector DB + Ollama LLM ]
 
 ---
 
