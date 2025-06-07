@@ -22,9 +22,9 @@ def load_vectorstore():
 
 def get_rag_pipeline():
     vectorstore = load_vectorstore()
-    retriever = vectorstore.as_retriever(search_type = "similarity", k=1)
+    retriever = vectorstore.as_retriever(search_type = "similarity", k=2)
     
-    llm = Ollama(model = "llama2")
+    llm = Ollama(model = "mistral")
     
     prompt = PromptTemplate(
         input_variables = ["context", "question"],
